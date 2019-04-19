@@ -1,0 +1,21 @@
+{
+  "name": "lab_10",
+  "version": "1.0.0",
+  "description": "Have you visited all 50 states?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "G.L.Gandy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.10.0",
+    "sequelize": "^5.7.0",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^4.0.6"
+  }
+}
