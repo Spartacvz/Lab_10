@@ -1,8 +1,8 @@
-var express = require('express')
-var bodyParser = require('bodyParser')
-var states_api = require('./routes/states.js')
+let express = require('express')
+let bodyParser = require('body-Parser')
+let states_api = require('./routes/states.js')
 
-var app = express()
+let app = express()
 
 app.use(bodyParser.json())
 app.use('/api', states_api)
